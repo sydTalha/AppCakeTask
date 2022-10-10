@@ -87,6 +87,8 @@ struct DetailView: View {
         }
         .padding()
         .navigationBarBackButtonHidden()
+        .navigationTitle("")
+        .navigationBarHidden(true)
     }
 }
 

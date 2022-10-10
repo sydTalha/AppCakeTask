@@ -138,6 +138,8 @@ struct MainView: View {
                 navigationLinks
             }
             .background(LinearGradient(gradient: Gradient(colors: [Color(red: 248/255, green: 248/255, blue: 248/255), Color(red: 240/255, green: 240/255, blue: 240/255)]), startPoint: .top, endPoint: .bottom))
+            .navigationTitle("")
+            .navigationBarHidden(true)
         }
         
     }
