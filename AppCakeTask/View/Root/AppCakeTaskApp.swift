@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct AppCakeTaskApp: App {
+    
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: MainViewModel())
         }
     }
 }
