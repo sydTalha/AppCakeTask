@@ -6,7 +6,6 @@ target 'AppCakeTask' do
   use_frameworks!
 
   # Pods for AppCakeTask
-  pod 'SwiftSoup'
   pod 'Alamofire', '~> 5.0'
   pod 'Kingfisher', '~> 7.0'
   
